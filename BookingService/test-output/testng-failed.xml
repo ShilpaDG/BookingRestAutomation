@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.booking.scripts.Booking">
+        <methods>
+          <include name="verifyThatSystemShouldReturnAtleastTwoExistingBookings"/>
+          <include name="verifyThatSystemShouldNotReturnanyValueForInvaldRoomId"/>
+          <include name="verifyThatDataReturnedForExistingBookingMatches"/>
+          <include name="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDate"/>
+          <include name="verifyThatUserShouldNotBeAllowedToCreateBokingsOnSameDate"/>
+          <include name="setupBeforeMethod"/>
+          <include name="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDateWithTime"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.booking.scripts.Booking -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

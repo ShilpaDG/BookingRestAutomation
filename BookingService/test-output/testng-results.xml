@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20457" started-at="2020-01-22T19:23:15Z" finished-at="2020-01-22T19:23:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20457" started-at="2020-01-22T19:23:15Z" finished-at="2020-01-22T19:23:35Z">
+      <class name="com.booking.scripts.Booking">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="setup" is-config="true" duration-ms="126" started-at="2020-01-23T00:53:15Z" finished-at="2020-01-23T00:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyThatDataReturnedForExistingBookingMatches()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatDataReturnedForExistingBookingMatches" duration-ms="8571" started-at="2020-01-23T00:53:15Z" finished-at="2020-01-23T00:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatDataReturnedForExistingBookingMatches -->
+        <test-method status="PASS" signature="verifyThatUserShouldNotBeAllowedToCreateBokingsOnSameDate()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatUserShouldNotBeAllowedToCreateBokingsOnSameDate" duration-ms="2150" started-at="2020-01-23T00:53:23Z" finished-at="2020-01-23T00:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldNotBeAllowedToCreateBokingsOnSameDate -->
+        <test-method status="PASS" signature="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDateWithTime()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDateWithTime" duration-ms="2233" started-at="2020-01-23T00:53:25Z" finished-at="2020-01-23T00:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDateWithTime -->
+        <test-method status="PASS" signature="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDate()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDate" duration-ms="1978" started-at="2020-01-23T00:53:28Z" finished-at="2020-01-23T00:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldNotBeAllowedToCreateBokingsIfCheckOutDateIsLessThanCheckInDate -->
+        <test-method status="PASS" signature="verifyThatSystemShouldReturnAtleastTwoExistingBookings()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatSystemShouldReturnAtleastTwoExistingBookings" duration-ms="1780" started-at="2020-01-23T00:53:30Z" finished-at="2020-01-23T00:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSystemShouldReturnAtleastTwoExistingBookings -->
+        <test-method status="PASS" signature="verifyThatSystemShouldNotReturnanyValueForInvaldRoomId()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="verifyThatSystemShouldNotReturnanyValueForInvaldRoomId" duration-ms="3724" started-at="2020-01-23T00:53:31Z" finished-at="2020-01-23T00:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSystemShouldNotReturnanyValueForInvaldRoomId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.booking.scripts.Booking@53b32d7]" name="tearDown" is-config="true" duration-ms="213" started-at="2020-01-23T00:53:35Z" finished-at="2020-01-23T00:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.booking.scripts.Booking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
